@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Trafficlight_Library")(type "KiCad")(uri "${KIPRJMOD}/Trafficlight_Library.pretty")(options "")(descr ""))
+)

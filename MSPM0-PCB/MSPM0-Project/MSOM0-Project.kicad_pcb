@@ -9633,6 +9633,30 @@
 		(layer "Edge.Cuts")
 		(uuid "fcc2cdcb-697c-421e-9d0f-e686420c533b")
 	)
+	(gr_text "MSPM0 learning project"
+		(at 106.1 89.9 0)
+		(layer "F.SilkS")
+		(uuid "dc1c9d51-05fa-4903-bb55-33e06758e468")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "REV A\nv. 1.0"
+		(at 87.9 111.8 0)
+		(layer "F.SilkS")
+		(uuid "e2363ae5-9e97-403d-8b0d-6cbd25ab12ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 107.2 100.7)
 		(end 106.9 100.4)
@@ -14407,7 +14431,6 @@
 		(fill
 			(thermal_gap 0.25)
 			(thermal_bridge_width 0.3)
-			(smoothing fillet)
 		)
 		(polygon
 			(pts
