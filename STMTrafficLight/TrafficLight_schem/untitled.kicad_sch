@@ -5538,7 +5538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0068ff3f-23e3-4c6f-86ac-a223e9cebe9a")
-		(property "Reference" "LED15"
+		(property "Reference" "LED?"
 			(at 135.6995 128.778 0)
 			(effects
 				(font
@@ -5642,6 +5642,12 @@
 			(uuid "38eb654a-b4a9-46a6-96a5-ad60235c41e7")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED15")
@@ -5659,7 +5665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03ac268b-6f23-4e94-96b4-9c794a9cbf24")
-		(property "Reference" "SW4"
+		(property "Reference" "SW?"
 			(at 188.468 152.146 0)
 			(effects
 				(font
@@ -5754,6 +5760,12 @@
 			(uuid "ffbb2e13-d7a9-4d9b-9660-78867ab73cd8")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "SW4")
@@ -5772,7 +5784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0604cfe3-05fa-4174-b96f-cdc9d40d3b2e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR?"
 			(at 35.56 69.85 0)
 			(effects
 				(font
@@ -5820,6 +5832,12 @@
 			(uuid "b7af12b2-2299-4615-94f4-6719966d6fb9")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR021")
@@ -5838,7 +5856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0831d117-3865-4600-bff9-7d87915fa681")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR?"
 			(at 218.44 166.37 0)
 			(effects
 				(font
@@ -5887,6 +5905,12 @@
 			(uuid "b041a2c7-0dd5-45e0-845b-3e0d12f648a2")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR028")
@@ -5905,7 +5929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12aa6098-5380-4c9c-b205-1261bf1cbc51")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -5954,6 +5978,12 @@
 			(uuid "6abb8f60-5f37-4aac-9877-06f826bef709")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR08")
@@ -5972,7 +6002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1395da62-e582-42dc-be11-28770178ba8e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 248.92 130.81 0)
 			(effects
 				(font
@@ -6021,6 +6051,12 @@
 			(uuid "fe25ef0c-ff40-4975-be07-832999ad0016")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR04")
@@ -6038,7 +6074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "147b6a70-621d-4147-a7a2-3519db6988c3")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 208.788 152.4 0)
 			(effects
 				(font
@@ -6135,6 +6171,12 @@
 			(uuid "07750ee4-6874-483a-a1da-4748817c9d62")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "C1")
@@ -6152,7 +6194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15bccf81-dab7-4491-82d7-db537519dc51")
-		(property "Reference" "R23"
+		(property "Reference" "R?"
 			(at 53.34 171.45 90)
 			(effects
 				(font
@@ -6247,6 +6289,12 @@
 			(uuid "75d87d9b-bea5-4164-b201-eff55f7c5a3b")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R23")
@@ -6265,7 +6313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aac59f0-4470-4055-a11f-92444a41a406")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR?"
 			(at 106.68 71.12 0)
 			(effects
 				(font
@@ -6313,6 +6361,12 @@
 			(uuid "9d91add9-f161-4e35-885b-612649507bc4")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR022")
@@ -6331,7 +6385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d151341-f105-4614-a2e2-1301f0c584a7")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -6474,7 +6528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1c03b4-d5bc-44cb-a7e3-154c5788e11c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 74.93 194.31 0)
 			(effects
 				(font
@@ -6523,6 +6577,12 @@
 			(uuid "2257e005-2332-4c2b-b0d8-cd09f32bc7a2")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR010")
@@ -6540,7 +6600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e032bce-3dd5-4da2-b44e-8bc46ceea916")
-		(property "Reference" "R19"
+		(property "Reference" "R?"
 			(at 121.92 160.02 90)
 			(effects
 				(font
@@ -6635,6 +6695,12 @@
 			(uuid "ea439edd-0daf-46f2-bfc8-3590c5ab3b2a")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R19")
@@ -6652,7 +6718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20312164-6de6-477b-94cd-d40a3841e943")
-		(property "Reference" "SW2"
+		(property "Reference" "SW?"
 			(at 189.738 131.826 0)
 			(effects
 				(font
@@ -6747,6 +6813,12 @@
 			(uuid "c8e73b72-49f0-4f6b-97af-58dcec264154")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "SW2")
@@ -6765,7 +6837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21b5798c-5c9e-41c7-83d7-3e5feb68275b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR?"
 			(at 233.68 166.37 0)
 			(effects
 				(font
@@ -6814,6 +6886,12 @@
 			(uuid "c810df0e-967b-46e8-bc03-0c5449611e87")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR029")
@@ -6832,7 +6910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21eda1a7-089e-4fe9-be50-190ac9fe1806")
-		(property "Reference" "S2"
+		(property "Reference" "S?"
 			(at 118.11 63.5 0)
 			(effects
 				(font
@@ -6939,6 +7017,12 @@
 			(uuid "c2a748ac-4a99-4bbe-b58f-ff26969d161d")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "S2")
@@ -6957,7 +7041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "237e351e-e345-4c63-9558-3423577f3512")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR?"
 			(at 195.58 166.37 0)
 			(effects
 				(font
@@ -7006,6 +7090,12 @@
 			(uuid "69259436-a72e-489b-801b-cfb3600ee811")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR015")
@@ -7024,7 +7114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24663663-d4c4-4358-a10b-553a92500e3b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR?"
 			(at 196.85 144.78 0)
 			(effects
 				(font
@@ -7073,6 +7163,12 @@
 			(uuid "8d99e414-19e5-4d76-b92c-b88abb4f2d7a")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR016")
@@ -7091,7 +7187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a01933-9f41-488c-b023-4e1f4005633e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR?"
 			(at 251.46 151.13 0)
 			(effects
 				(font
@@ -7139,6 +7235,12 @@
 			(uuid "4621fd35-babf-48f8-8433-456f61f32f80")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR027")
@@ -7156,7 +7258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b9d7b7d-8229-4c15-81d8-89a1dae02480")
-		(property "Reference" "R9"
+		(property "Reference" "R?"
 			(at 191.77 43.18 90)
 			(effects
 				(font
@@ -7251,6 +7353,12 @@
 			(uuid "ba0f0cb6-3f65-49b0-8b0e-e39d47a14efb")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R9")
@@ -7268,7 +7376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c0966e6-46cf-4587-9c2d-10816fe74f8c")
-		(property "Reference" "LED14"
+		(property "Reference" "LED?"
 			(at 64.516 140.208 0)
 			(effects
 				(font
@@ -7372,6 +7480,12 @@
 			(uuid "9229a65a-2684-485c-a6dc-ec97552675ef")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED14")
@@ -7390,7 +7504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "308083bc-4b2b-4a89-bc2d-364cc6aa839f")
-		(property "Reference" "LED10"
+		(property "Reference" "LED?"
 			(at 263.2075 20.32 0)
 			(effects
 				(font
@@ -7494,6 +7608,12 @@
 			(uuid "687defdd-589c-4e0b-aeb8-7b57633cad38")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED10")
@@ -7512,7 +7632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3521565a-8227-47a0-9058-e7f9274899ae")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -7560,6 +7680,12 @@
 			(uuid "de873d9d-8370-490b-b981-1f4e62139cfa")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR012")
@@ -7577,7 +7703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3736c9cb-40b0-48f0-adf7-4aa7fa640ad1")
-		(property "Reference" "R24"
+		(property "Reference" "R?"
 			(at 53.34 179.07 90)
 			(effects
 				(font
@@ -7672,6 +7798,12 @@
 			(uuid "08c5e564-2710-4e21-83bc-b30d74e6dbf5")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R24")
@@ -7689,7 +7821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b7fc6c3-9bb1-4b19-9dfa-94bccabc49cb")
-		(property "Reference" "LED2"
+		(property "Reference" "D2"
 			(at 63.754 34.29 0)
 			(effects
 				(font
@@ -7825,7 +7957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d8106b2-4b6f-46f0-a7de-f7228bbd8714")
-		(property "Reference" "R25"
+		(property "Reference" "R?"
 			(at 124.46 168.91 90)
 			(effects
 				(font
@@ -7920,6 +8052,12 @@
 			(uuid "ac1414a7-20da-427b-8322-2fc0e517b2f7")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R25")
@@ -7937,7 +8075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40064392-138e-4e23-91a8-e29178f7da15")
-		(property "Reference" "LED22"
+		(property "Reference" "LED?"
 			(at 137.414 158.496 0)
 			(effects
 				(font
@@ -8041,6 +8179,12 @@
 			(uuid "526783e4-344e-4acb-8f70-58f9944bf659")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED22")
@@ -8058,7 +8202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40fbdbe4-d99c-4ae6-89bf-7a0f27460348")
-		(property "Reference" "LED1"
+		(property "Reference" "D1"
 			(at 63.5 24.384 0)
 			(effects
 				(font
@@ -8186,7 +8330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41131940-26e9-4066-aa22-0bcac0f72754")
-		(property "Reference" "R22"
+		(property "Reference" "R?"
 			(at 264.16 105.4099 0)
 			(effects
 				(font
@@ -8283,6 +8427,12 @@
 			(uuid "ad4e71cc-e56a-4345-83bf-79b1bf3a8ced")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R22")
@@ -8301,7 +8451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41869d5d-ee7c-4f18-8ecd-1336f2c99897")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR?"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -8350,6 +8500,12 @@
 			(uuid "3c8494bc-8763-4f42-8252-1e7aafbe3380")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR017")
@@ -8367,7 +8523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43167697-cdc3-431e-ae48-2b337a9a9f0a")
-		(property "Reference" "LED26"
+		(property "Reference" "LED?"
 			(at 136.144 186.182 0)
 			(effects
 				(font
@@ -8480,6 +8636,12 @@
 			(uuid "212dd023-c92a-462b-b21c-3be1f6a4bd1c")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED26")
@@ -8498,7 +8660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d42c49-63ca-424b-96a5-481e1404a12d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR?"
 			(at 76.2 60.96 0)
 			(effects
 				(font
@@ -8547,6 +8709,12 @@
 			(uuid "84d08124-be80-43ab-a0de-c7e59da48c0e")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR09")
@@ -8564,7 +8732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49c0ca08-6c2d-4d40-8aa2-3a0fbde0c4f6")
-		(property "Reference" "LED3"
+		(property "Reference" "D3"
 			(at 64.008 44.958 0)
 			(effects
 				(font
@@ -8691,7 +8859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cd98abe-8167-4435-8bb1-a8dc44c26920")
-		(property "Reference" "R18"
+		(property "Reference" "R?"
 			(at 50.8 162.56 90)
 			(effects
 				(font
@@ -8786,6 +8954,12 @@
 			(uuid "86f6d1cb-112c-4258-bec0-ebd108292c43")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R18")
@@ -8804,7 +8978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cff1dab-5df7-48ac-9fff-f13dfb999a42")
-		(property "Reference" "LED8"
+		(property "Reference" "LED?"
 			(at 203.5175 30.48 0)
 			(effects
 				(font
@@ -8917,6 +9091,12 @@
 			(uuid "c1ef4094-901a-4e7e-802d-4b91a4dcb159")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED8")
@@ -8934,7 +9114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4db714e4-c755-4e39-95ec-f71bcd2cedcd")
-		(property "Reference" "SW1"
+		(property "Reference" "SW?"
 			(at 189.738 122.936 0)
 			(effects
 				(font
@@ -9029,6 +9209,12 @@
 			(uuid "69f24af9-a82b-4944-b7c0-f4b078850007")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "SW1")
@@ -9046,7 +9232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5692ef66-eca0-4c08-a4b4-b46dce95ad29")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 52.07 35.56 90)
 			(effects
 				(font
@@ -9141,6 +9327,12 @@
 			(uuid "c352e481-c52e-403e-b192-96dafe0857a4")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R2")
@@ -9159,7 +9351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a73bf2d-f32c-4bf6-b3b7-c9442003bc52")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at 271.78 57.15 0)
 			(effects
 				(font
@@ -9208,6 +9400,12 @@
 			(uuid "35479c91-6101-4f8a-9b60-b98490f5ea69")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR07")
@@ -9226,7 +9424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e395ec6-94bf-4e4d-aa0e-8b7a75ef07f4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 261.62 130.81 0)
 			(effects
 				(font
@@ -9275,6 +9473,12 @@
 			(uuid "c9d54435-d284-4689-afdb-8cfb03760aa3")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR05")
@@ -9292,7 +9496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ba6765-be73-451a-ba55-336e616807ab")
-		(property "Reference" "SW3"
+		(property "Reference" "SW?"
 			(at 188.468 141.986 0)
 			(effects
 				(font
@@ -9387,6 +9591,12 @@
 			(uuid "40df4c1c-f0b0-4160-babe-a1049521a7dd")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "SW3")
@@ -9404,7 +9614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "633f9286-0b8b-437b-8816-e9911bbdf3c5")
-		(property "Reference" "R7"
+		(property "Reference" "R?"
 			(at 191.77 22.86 90)
 			(effects
 				(font
@@ -9499,6 +9709,12 @@
 			(uuid "522cad2d-c8b7-407a-b328-5ed76c4a2306")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R7")
@@ -9517,7 +9733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d47733-6a9e-4746-ac59-718bbdb83a80")
-		(property "Reference" "R21"
+		(property "Reference" "R?"
 			(at 251.46 105.4099 0)
 			(effects
 				(font
@@ -9614,6 +9830,12 @@
 			(uuid "a70c2b5f-500d-4a04-b534-3197ef763f46")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R21")
@@ -9631,7 +9853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "680c9ed7-2d4c-45f6-8894-6f2eb5dcbd22")
-		(property "Reference" "R11"
+		(property "Reference" "R?"
 			(at 251.46 33.02 90)
 			(effects
 				(font
@@ -9726,6 +9948,12 @@
 			(uuid "d8057572-2f1d-4450-9a6e-3dd9e347404e")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R11")
@@ -9744,7 +9972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c21fe99-627c-4bf1-ae37-0cee1742664c")
-		(property "Reference" "LED5"
+		(property "Reference" "LED?"
 			(at 126.0475 33.02 0)
 			(effects
 				(font
@@ -9857,6 +10085,12 @@
 			(uuid "01dcdb22-7dc2-4ff5-bbed-a7236cf6ed16")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED5")
@@ -9875,7 +10109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd2ecbb-be5d-4cf6-9176-a8d30b80c7b5")
-		(property "Reference" "S4"
+		(property "Reference" "S?"
 			(at 245.11 54.61 0)
 			(effects
 				(font
@@ -9982,6 +10216,12 @@
 			(uuid "e3889256-58f9-43c1-9b9b-70f0aa0642bb")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "S4")
@@ -9999,7 +10239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "702c3591-bc1b-4518-969f-9311a677570f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR?"
 			(at 233.68 60.96 0)
 			(effects
 				(font
@@ -10047,6 +10287,12 @@
 			(uuid "9d1d9cea-e115-4040-b424-0083001df6f8")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR024")
@@ -10065,7 +10311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7040326f-72c0-4e22-b6b1-a13790c910f6")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 195.58 80.01 0)
 			(effects
 				(font
@@ -10207,7 +10453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72509e02-6731-471b-97ea-f6f33e33b7ba")
-		(property "Reference" "R20"
+		(property "Reference" "R?"
 			(at 121.92 149.86 90)
 			(effects
 				(font
@@ -10302,6 +10548,12 @@
 			(uuid "12d247fb-4fab-42cd-ba0c-2384bd912c9e")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R20")
@@ -10320,7 +10572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "742415bc-0010-4a8f-b027-78b5ed0c396e")
-		(property "Reference" "LED6"
+		(property "Reference" "LED?"
 			(at 126.0475 43.18 0)
 			(effects
 				(font
@@ -10424,6 +10676,12 @@
 			(uuid "b75a71bc-7a55-44b0-984d-7284b42691c3")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED6")
@@ -10441,7 +10699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e5665d6-0165-4dba-9ed2-7bfdc0038e73")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 210.82 57.15 0)
 			(effects
 				(font
@@ -10490,6 +10748,12 @@
 			(uuid "07741561-2161-464a-9c74-361b3cd30576")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR06")
@@ -10507,7 +10771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8397e2d5-73eb-4b8e-81d9-cc37e70f15b8")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 52.07 25.4 90)
 			(effects
 				(font
@@ -10602,6 +10866,12 @@
 			(uuid "c4a820f5-7a44-4126-927a-58be963187f4")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R1")
@@ -10619,7 +10889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c42d165-e906-49c0-9f20-81f78ec7fedf")
-		(property "Reference" "LED23"
+		(property "Reference" "LED?"
 			(at 64.77 170.942 0)
 			(effects
 				(font
@@ -10732,6 +11002,12 @@
 			(uuid "05797977-6287-468b-bbfa-f3fb178ad14e")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED23")
@@ -10750,7 +11026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd07648-30ff-4bbf-9c00-a8ab230339f8")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 148.59 195.58 0)
 			(effects
 				(font
@@ -10799,6 +11075,12 @@
 			(uuid "2edfea7c-f76f-449d-9fb6-ecfef4580d55")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR014")
@@ -10817,7 +11099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90a45488-14a2-45de-ba2f-06b81ce366f1")
-		(property "Reference" "S1"
+		(property "Reference" "S?"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -10924,6 +11206,12 @@
 			(uuid "3062e3db-4e22-4849-ae6f-43b1ad95a6ed")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "S1")
@@ -10942,7 +11230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "958cf5c6-3e96-4a68-9835-a66cca92c5f5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR?"
 			(at 35.56 87.63 0)
 			(effects
 				(font
@@ -10991,6 +11279,12 @@
 			(uuid "9815933d-51c4-478a-9df1-e9e356d9627f")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR020")
@@ -11009,7 +11303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8d6eae-911f-42eb-b476-17ca6e3a4d0a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR?"
 			(at 233.68 151.13 0)
 			(effects
 				(font
@@ -11057,6 +11351,12 @@
 			(uuid "ca8e39f1-fcc0-4397-b1f2-f317ebc868f2")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR026")
@@ -11074,7 +11374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f8a4eed-e748-4eff-b1b0-62b2d11cf98d")
-		(property "Reference" "R14"
+		(property "Reference" "R?"
 			(at 50.8 140.97 90)
 			(effects
 				(font
@@ -11169,6 +11469,12 @@
 			(uuid "30fc9d74-846b-40db-88c8-edb1d46155ad")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R14")
@@ -11187,7 +11493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a138eb5a-0565-4fbc-a927-a5536b0025db")
-		(property "Reference" "S3"
+		(property "Reference" "S?"
 			(at 194.31 55.88 0)
 			(effects
 				(font
@@ -11294,6 +11600,12 @@
 			(uuid "9213297b-a1bd-4b40-85f0-cb97ca3d377f")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "S3")
@@ -11311,7 +11623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a321afae-186c-44ff-8915-3ae0076e191b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR?"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -11360,6 +11672,12 @@
 			(uuid "ae194d89-7c27-4a96-a4b3-7b8969d13571")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR018")
@@ -11378,7 +11696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abdcc90a-e955-473c-a510-2a43a92524fc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR?"
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -11426,6 +11744,12 @@
 			(uuid "3a02ef85-3801-4a48-aaee-2cb9379d8f20")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR013")
@@ -11443,7 +11767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adc2c5a4-f5a1-403e-9228-c18bdb7f46ca")
-		(property "Reference" "LED19"
+		(property "Reference" "LED?"
 			(at 64.516 149.86 0)
 			(effects
 				(font
@@ -11547,6 +11871,12 @@
 			(uuid "deb8257b-e41b-4f13-9ee0-373aa2032aa9")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED19")
@@ -11565,7 +11895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b24cd599-1904-406d-9740-710c4ddb784a")
-		(property "Reference" "LED18"
+		(property "Reference" "LED?"
 			(at 256.54 119.6975 0)
 			(effects
 				(font
@@ -11669,6 +11999,12 @@
 			(uuid "c58712a0-6fa8-4330-a889-cc7b0185d015")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED18")
@@ -11686,7 +12022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5b6ee10-ea6d-4e43-8f81-635349d81478")
-		(property "Reference" "LED24"
+		(property "Reference" "LED?"
 			(at 64.008 187.452 0)
 			(effects
 				(font
@@ -11799,6 +12135,12 @@
 			(uuid "17a8a7df-78ad-4df8-9220-da461ef2b669")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED24")
@@ -11816,7 +12158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "babdc010-6fdd-4167-99e1-a55c7a5d54bc")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 115.57 35.56 90)
 			(effects
 				(font
@@ -11911,6 +12253,12 @@
 			(uuid "65ea1428-2967-43d0-9079-9a699409e84f")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R5")
@@ -11928,7 +12276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1df6d18-2a40-418e-a0eb-e61509206c5d")
-		(property "Reference" "LED20"
+		(property "Reference" "LED?"
 			(at 64.516 161.036 0)
 			(effects
 				(font
@@ -12032,6 +12380,12 @@
 			(uuid "936801a9-0015-45b7-baac-048d28033ed0")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED20")
@@ -12050,7 +12404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c52d3915-da2d-44e2-a52b-b58c8fffa2d0")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR?"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -12098,6 +12452,12 @@
 			(uuid "ad12a9e7-aeb1-4380-a8a0-0cfa17c04f12")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR025")
@@ -12115,7 +12475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5a98716-6067-4d3e-ae40-57c194e56368")
-		(property "Reference" "R26"
+		(property "Reference" "R?"
 			(at 124.46 177.8 90)
 			(effects
 				(font
@@ -12210,6 +12570,12 @@
 			(uuid "083d23d5-2211-49de-a1fd-cda0f58b02b0")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R26")
@@ -12228,7 +12594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b714e7-ec19-45cc-87a8-ce6d56fc6823")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR?"
 			(at 251.46 166.37 0)
 			(effects
 				(font
@@ -12277,6 +12643,12 @@
 			(uuid "22bf4490-cd64-4fcf-8a85-116fccb19793")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR030")
@@ -12294,7 +12666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9497b71-0c32-459f-ac06-397fd3a2b536")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR?"
 			(at 182.88 62.23 0)
 			(effects
 				(font
@@ -12342,6 +12714,12 @@
 			(uuid "9f8bf8e2-6fbf-4f42-a504-e1d364baf7bb")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR023")
@@ -12360,7 +12738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca60c527-569f-488b-b1ee-b46654c39ebe")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR?"
 			(at 71.12 99.06 0)
 			(effects
 				(font
@@ -12408,6 +12786,12 @@
 			(uuid "85668959-b773-4ba1-a0a0-f54d4767cd68")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR011")
@@ -12425,7 +12809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc96abc1-c6da-43b1-ac5c-19ec60839ee1")
-		(property "Reference" "R6"
+		(property "Reference" "R?"
 			(at 115.57 45.72 90)
 			(effects
 				(font
@@ -12520,6 +12904,12 @@
 			(uuid "5087ff9c-1e83-4de9-bd1e-c2bd8362253d")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R6")
@@ -12537,7 +12927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cde0c723-a7c6-4337-8de6-fd6c30f77c61")
-		(property "Reference" "R10"
+		(property "Reference" "R?"
 			(at 251.46 22.86 90)
 			(effects
 				(font
@@ -12632,6 +13022,12 @@
 			(uuid "f9ffc142-49d5-4f8a-b3aa-95ba9be4fcc1")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R10")
@@ -12649,7 +13045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cea81861-7577-43cd-9533-784d1c464705")
-		(property "Reference" "LED13"
+		(property "Reference" "LED?"
 			(at 64.1985 130.048 0)
 			(effects
 				(font
@@ -12753,6 +13149,12 @@
 			(uuid "4cfac8c0-0874-48b4-8912-35dede6fdcdf")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED13")
@@ -12770,7 +13172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf3539a1-f983-4610-a69a-c48d56aff8c5")
-		(property "Reference" "R12"
+		(property "Reference" "R?"
 			(at 251.46 43.18 90)
 			(effects
 				(font
@@ -12865,6 +13267,12 @@
 			(uuid "44b2c520-e788-4884-8f84-2877dfe7013f")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R12")
@@ -12883,7 +13291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0f947bb-f51e-47e0-a753-89eda5ca965c")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 55.88 91.44 0)
 			(effects
 				(font
@@ -13025,7 +13433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d44fc15d-c139-4a6a-8e48-a01676f9dacb")
-		(property "Reference" "R8"
+		(property "Reference" "R?"
 			(at 191.77 33.02 90)
 			(effects
 				(font
@@ -13120,6 +13528,12 @@
 			(uuid "76b70cb3-ccc3-4d28-8771-3aa0783cea1e")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R8")
@@ -13137,7 +13551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6bce885-5f82-442e-95dd-2b9d1fea4ef9")
-		(property "Reference" "R15"
+		(property "Reference" "R?"
 			(at 121.92 129.54 90)
 			(effects
 				(font
@@ -13232,6 +13646,12 @@
 			(uuid "a723ccdb-b7c5-4618-8cfa-fc1b2c014d73")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R15")
@@ -13250,7 +13670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da4cda3c-c081-47cc-9ff9-e4a74f3564f1")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 179.07 116.84 0)
 			(effects
 				(font
@@ -13299,6 +13719,12 @@
 			(uuid "ba274018-153c-43ca-80a4-7c3a2db7917e")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR03")
@@ -13317,7 +13743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddead977-7b39-43b8-b48e-af99fa643bd1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR?"
 			(at 233.68 77.47 0)
 			(effects
 				(font
@@ -13366,6 +13792,12 @@
 			(uuid "81e660c5-b4bb-4a5b-a428-e97b2b614bcb")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR019")
@@ -13384,7 +13816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df5fb4fc-1424-41df-b176-d13a0a0bcb08")
-		(property "Reference" "LED12"
+		(property "Reference" "LED?"
 			(at 263.2075 40.64 0)
 			(effects
 				(font
@@ -13488,6 +13920,12 @@
 			(uuid "080f690d-4b71-4331-b829-2fdadb13eea2")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED12")
@@ -13506,7 +13944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0cc13ac-ac10-4e18-a914-7d509688d30e")
-		(property "Reference" "LED17"
+		(property "Reference" "LED?"
 			(at 269.24 119.6975 0)
 			(effects
 				(font
@@ -13610,6 +14048,12 @@
 			(uuid "dd5576c3-39e7-4e8e-a483-3814a0358c5d")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED17")
@@ -13627,7 +14071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3ddb9ee-c0ea-403f-9356-42e73ef53b4b")
-		(property "Reference" "LED21"
+		(property "Reference" "LED?"
 			(at 137.16 148.59 0)
 			(effects
 				(font
@@ -13731,6 +14175,12 @@
 			(uuid "d6564582-61d0-4400-818e-4f4c20305ee8")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED21")
@@ -13748,7 +14198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e635badb-fd46-4d2d-b55b-7d46dad33c37")
-		(property "Reference" "LED25"
+		(property "Reference" "LED?"
 			(at 137.414 168.402 0)
 			(effects
 				(font
@@ -13861,6 +14311,12 @@
 			(uuid "a4403a3a-91b6-49d7-bb97-cc3c9c42933e")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED25")
@@ -13878,7 +14334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6e08e54-0c57-4bd0-809a-88ff37596dd0")
-		(property "Reference" "R16"
+		(property "Reference" "R?"
 			(at 121.92 139.7 90)
 			(effects
 				(font
@@ -13973,6 +14429,12 @@
 			(uuid "46bbb9a2-be52-486a-90e6-e0990ccc757c")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R16")
@@ -13990,7 +14452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7f77c94-59aa-4533-a675-a9114c1265aa")
-		(property "Reference" "LED16"
+		(property "Reference" "LED?"
 			(at 135.4455 138.43 0)
 			(effects
 				(font
@@ -14094,6 +14556,12 @@
 			(uuid "2c41debc-c58c-4cc3-8e67-3e2b4c6dc8f6")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED16")
@@ -14111,7 +14579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaa7bb4f-32f1-48c3-b571-a985e9e3bcc5")
-		(property "Reference" "R17"
+		(property "Reference" "R?"
 			(at 50.8 151.13 90)
 			(effects
 				(font
@@ -14206,6 +14674,12 @@
 			(uuid "f848106e-9ea3-4ce9-8516-813cc176a652")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R17")
@@ -14224,7 +14698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb2bd599-f938-40b2-b12f-3c0b1e508373")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -14273,6 +14747,12 @@
 			(uuid "34b11e83-33ce-4cc4-aa60-751f9441cbe5")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR02")
@@ -14290,7 +14770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb306b37-20bd-4b8b-8006-46f20b9a24f7")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 224.028 151.638 0)
 			(effects
 				(font
@@ -14387,6 +14867,12 @@
 			(uuid "a6d6f279-f469-49e1-8e53-f39feaa404cc")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "C2")
@@ -14405,7 +14891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe5bb45-23d6-44bc-bd3b-b776b1136b11")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 40.64 127 0)
 			(effects
 				(font
@@ -14454,6 +14940,12 @@
 			(uuid "41a64be4-3872-4198-b8f5-a6662b7b2197")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "#PWR01")
@@ -14471,7 +14963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec6188ef-dd8c-4b08-ad33-0794ef8e8231")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 50.8 130.81 90)
 			(effects
 				(font
@@ -14566,6 +15058,12 @@
 			(uuid "84f3e306-2885-4340-a6d6-6e6f4d66fdd8")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R13")
@@ -14583,7 +15081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee06846a-6bf6-4259-afaf-3cbb0e2a9d5d")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 241.808 151.384 0)
 			(effects
 				(font
@@ -14680,6 +15178,12 @@
 			(uuid "e3e4ad22-17ff-4eca-974a-c041960b9411")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "C3")
@@ -14698,7 +15202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef133a0c-ed75-4ef7-8790-5b383392e076")
-		(property "Reference" "LED9"
+		(property "Reference" "LED?"
 			(at 203.5175 40.64 0)
 			(effects
 				(font
@@ -14802,6 +15306,12 @@
 			(uuid "ba4e2ce4-6d25-476c-b94f-38e73ec0df69")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED9")
@@ -14820,7 +15330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f01100c6-df6c-45d7-bff5-46e1adc45f5b")
-		(property "Reference" "LED4"
+		(property "Reference" "LED?"
 			(at 126.0475 22.86 0)
 			(effects
 				(font
@@ -14924,6 +15434,12 @@
 			(uuid "959bb956-17f1-4b2c-be7f-1e50203df71f")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED4")
@@ -14942,7 +15458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f32818cf-3318-422f-a5aa-7361eb028cef")
-		(property "Reference" "LED11"
+		(property "Reference" "LED?"
 			(at 263.2075 30.48 0)
 			(effects
 				(font
@@ -15055,6 +15571,12 @@
 			(uuid "ea5e8387-e9ba-4d2a-b7d7-2fd54b728c19")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED11")
@@ -15072,7 +15594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7402cb0-0046-4c3a-b7f2-eb26ea20171b")
-		(property "Reference" "R4"
+		(property "Reference" "R?"
 			(at 115.57 25.4 90)
 			(effects
 				(font
@@ -15167,6 +15689,12 @@
 			(uuid "249ff1fb-fdc2-4712-8c26-10acc40324e7")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R4")
@@ -15185,7 +15713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8c418ac-9b46-4b6b-9389-0664f3d4d9cf")
-		(property "Reference" "LED7"
+		(property "Reference" "LED?"
 			(at 203.5175 20.32 0)
 			(effects
 				(font
@@ -15289,6 +15817,12 @@
 			(uuid "9ab2fb0d-8929-49ec-b11c-3261d904ee71")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED7")
@@ -15306,7 +15840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff9a35a5-b650-408e-889e-40f574dc108a")
-		(property "Reference" "R3"
+		(property "Reference" "R?"
 			(at 52.07 45.72 90)
 			(effects
 				(font
@@ -15401,6 +15935,12 @@
 			(uuid "17bd84d6-154a-4657-a0ff-11de5e280cfd")
 		)
 		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "R3")
