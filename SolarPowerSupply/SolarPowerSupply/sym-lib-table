@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Symbol1")(type "KiCad")(uri "${KIPRJMOD}/SchematicSymbols/2026-04-01_20-05-41.kicad_sym")(options "")(descr ""))
+  (lib (name "Symbol2")(type "KiCad")(uri "${KIPRJMOD}/SchematicSymbols/2026-04-01_20-06-39.kicad_sym")(options "")(descr ""))
+)
