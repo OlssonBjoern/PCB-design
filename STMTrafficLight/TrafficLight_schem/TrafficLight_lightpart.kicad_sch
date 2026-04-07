@@ -3496,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 99.06) (xy 248.92 102.87)
+			(xy 248.92 91.44) (xy 248.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4004,6 +4004,16 @@
 		)
 		(uuid "f941bb79-5a20-4c78-907a-47ac047071c6")
 	)
+	(label "Pwr_LED"
+		(at 248.92 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e0fb49f-3132-42da-b10c-e4855ee5d921")
+	)
 	(global_label "TL4_Car"
 		(shape input)
 		(at 232.41 64.77 180)
@@ -4029,7 +4039,7 @@
 			)
 		)
 	)
-	(global_label "PL1_Blue"
+	(global_label "PL1_Yellow"
 		(shape output)
 		(at 38.1 109.22 180)
 		(fields_autoplaced yes)
@@ -4044,7 +4054,7 @@
 		)
 		(uuid "06df610a-d52c-42ab-a8fa-ac72f419df5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.1586 109.22 0)
+			(at 26.7071 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4439,7 @@
 			)
 		)
 	)
-	(global_label "PL2_Blue"
+	(global_label "PL2_Yellow"
 		(shape input)
 		(at 114.3 173.99 180)
 		(fields_autoplaced yes)
@@ -4444,7 +4454,7 @@
 		)
 		(uuid "4bff4cfc-2d70-4204-a513-10ce517f5b2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.3586 173.99 0)
+			(at 102.9071 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4789,7 @@
 			)
 		)
 	)
-	(global_label "USR_LED2"
+	(global_label "Status_debug_LED"
 		(shape input)
 		(at 261.62 99.06 90)
 		(fields_autoplaced yes)
@@ -4794,7 +4804,7 @@
 		)
 		(uuid "74874db0-98f7-4764-b345-e01e96bf8278")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 88.4897 90)
+			(at 261.62 82.3938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5064,7 @@
 			)
 		)
 	)
-	(global_label "PL1_Blue"
+	(global_label "PL1_Yellow"
 		(shape input)
 		(at 41.91 176.53 180)
 		(fields_autoplaced yes)
@@ -5069,7 +5079,7 @@
 		)
 		(uuid "a0abbb0f-3029-4c50-834f-917251451ff6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9686 176.53 0)
+			(at 30.5171 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5339,7 @@
 			)
 		)
 	)
-	(global_label "PL2_Blue"
+	(global_label "PL2_Yellow"
 		(shape output)
 		(at 107.95 109.22 180)
 		(fields_autoplaced yes)
@@ -5344,7 +5354,7 @@
 		)
 		(uuid "df0cf950-d729-4ca5-8957-d9634f9250e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.0086 109.22 0)
+			(at 96.5571 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,9 +5439,9 @@
 			)
 		)
 	)
-	(global_label "USR_LED1"
+	(global_label "Pwr_LED"
 		(shape input)
-		(at 248.92 99.06 90)
+		(at 248.92 91.44 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5444,7 +5454,7 @@
 		)
 		(uuid "e64683a8-efcc-4f02-a430-9a81e97c4feb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 88.4897 90)
+			(at 248.92 82.1759 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +6522,7 @@
 			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8321,127 +8331,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 261.62 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41131940-26e9-4066-aa22-0bcac0f72754")
-		(property "Reference" "R?"
-			(at 264.16 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 264.16 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 259.842 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706189568917504"
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100mW 2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part number" "0603WAF2001T5E"
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor link 1" "https://www.mouser.se/ProductDetail/Royalohm/0603WAF2001T5E?qs=e8oIoAS2J1RMbL0kmAjbNQ%3D%3D&srsltid=AfmBOor798ReUzo59iQEHufgGfMmsi6igfRJnuK6hWyHP5FtOpafKtSJ"
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor link 2" ""
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22975"
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0561fc33-2c3c-4594-9ede-e8f8cf5dd478")
-		)
-		(pin "2"
-			(uuid "ad4e71cc-e56a-4345-83bf-79b1bf3a8ced")
-		)
-		(instances
-			(project "TrafficLight_schem"
-				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/30121296-94fd-4737-8f71-80012262bc07"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 106.68 81.28 0)
 		(unit 1)
@@ -9342,6 +9231,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 261.62 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58ac6fc2-d432-463e-aa74-94041fd86789")
+		(property "Reference" "R?"
+			(at 264.16 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 264.16 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 259.842 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17513.pdf"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 125mW 150V 1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "0805W8F1001T5E"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor link 1" "https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor link 2" "https://www.mouser.se/ProductDetail/Royalohm/0805W8J0100T5E?qs=e8oIoAS2J1Qdp6qmHCcpPw%3D%3D&utm_id=22436684116&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433189192&gclid=CjwKCAjw1tLOBhAMEiwAiPkRHi7mjKGUpEOAttgZuw82OIBDmVujRbCEYoafCKBGpueoCNkfgBQRzxoCn6AQAvD_BwE"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0676bed-219a-4cef-a29c-95be14d1143c")
+		)
+		(pin "2"
+			(uuid "4a987bb5-4fcd-4a2c-9aa7-3f7bc6be747f")
+		)
+		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/30121296-94fd-4737-8f71-80012262bc07"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 271.78 50.8 0)
 		(unit 1)
@@ -9742,7 +9752,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 251.46 107.9499 0)
 			(effects
 				(font
@@ -9751,7 +9761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 247.142 106.68 90)
 			(effects
 				(font
@@ -9760,7 +9770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706189568917504"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17513.pdf"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -9769,7 +9779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 125mW 150V 1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -9787,7 +9797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer part number" "0603WAF2001T5E"
+		(property "Manufacturer part number" "0805W8F1001T5E"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -9796,7 +9806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor link 1" "https://www.mouser.se/ProductDetail/Royalohm/0603WAF2001T5E?qs=e8oIoAS2J1RMbL0kmAjbNQ%3D%3D&srsltid=AfmBOor798ReUzo59iQEHufgGfMmsi6igfRJnuK6hWyHP5FtOpafKtSJ"
+		(property "Distributor link 1" "https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -9805,7 +9815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor link 2" ""
+		(property "Distributor link 2" "https://www.mouser.se/ProductDetail/Royalohm/0805W8J0100T5E?qs=e8oIoAS2J1Qdp6qmHCcpPw%3D%3D&utm_id=22436684116&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433189192&gclid=CjwKCAjw1tLOBhAMEiwAiPkRHi7mjKGUpEOAttgZuw82OIBDmVujRbCEYoafCKBGpueoCNkfgBQRzxoCn6AQAvD_BwE"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -9814,7 +9824,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22975"
+		(property "LCSC" "C17513"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -10438,7 +10448,7 @@
 			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11887,134 +11897,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 248.92 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b24cd599-1904-406d-9740-710c4ddb784a")
-		(property "Reference" "LED?"
-			(at 256.54 119.6975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Red"
-			(at 254 119.6975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C434431.pdf"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+85℃ 1.8V~2.4V 10mA 120mcd 120° 40mW 615nm~630nm 645nm Discrete Diode Red Water Clear 0805 LED Indication - Discrete ROHS"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "     Yongyu Photoelectric "
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor link 1" "https://jlcpcb.com/partdetail/YongyuPhotoelectric-SZYY0805R/C434431"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor link 2" "https://www.lcsc.com/product-detail/C434431.html"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C434431"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part number" "     Yongyu Photoelectric "
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "242c566b-cc0e-48a4-8c82-e85be832bbcf")
-		)
-		(pin "1"
-			(uuid "c58712a0-6fa8-4330-a889-cc7b0185d015")
-		)
-		(instances
-			(project "TrafficLight_schem"
-				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
-					(reference "LED?")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/30121296-94fd-4737-8f71-80012262bc07"
-					(reference "LED18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 63.5 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13418,7 +13300,7 @@
 			)
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -15443,6 +15325,133 @@
 			(project "untitled"
 				(path "/30121296-94fd-4737-8f71-80012262bc07"
 					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 248.92 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1e3ab28-5ece-412a-8fe1-515f7cf1366a")
+		(property "Reference" "LED?"
+			(at 255.27 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 252.73 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2297.pdf"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 100mW 120° 2.6V~3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear 0805 LED Indication - Discrete ROHS"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO elec"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "KT-0805G"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0805G/C2297"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://jlcpcb.com/partdetail/YongyuPhotoelectric-SZYY0805Y/C434436"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "888c973f-3efc-4554-8349-51928296fdb3")
+		)
+		(pin "1"
+			(uuid "75a81695-99ae-4e9c-8853-74325a19aaf6")
+		)
+		(instances
+			(project "TrafficLight_schem"
+				(path "/01fd7229-37c5-426e-a117-aa7625919fb9/e7a904ac-7f1f-4f26-8dd0-546b7ecd090c"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/30121296-94fd-4737-8f71-80012262bc07"
+					(reference "LED27")
 					(unit 1)
 				)
 			)
