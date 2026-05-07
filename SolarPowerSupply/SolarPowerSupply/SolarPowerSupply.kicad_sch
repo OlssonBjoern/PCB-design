@@ -2793,7 +2793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Ind_symb:IND_ASPI-0630LR_ABR"
+		(property "Footprint" "Proj_symb:IND_ASPI-0630LR_ABR"
 			(at 130.81 72.39 0)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 71.12 91.44 0)
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -3636,7 +3636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 259.08 92.71 0)
 			(effects
 				(font
